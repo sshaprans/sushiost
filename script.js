@@ -1,5 +1,6 @@
 const swiper = new Swiper('.swiper-menu', {
     direction: 'horizontal',
+    lazy: true,
     loop: true,
     slidesPerView: 8,
     spaceBetween: 20,
@@ -10,6 +11,7 @@ const swiper = new Swiper('.swiper-menu', {
 });
 const banner = new Swiper('.banner', {
     direction: 'horizontal',
+    lazy: true,
     loop: true,
     speed: 500,
     effect: 'slider',
@@ -25,6 +27,7 @@ const banner = new Swiper('.banner', {
 });
 const swiperCategory = new Swiper(".swiperCategory", {
     loop: true,
+    lazy: true,
     pagination: {
         el: ".swiper-pagination",
         type: "fraction",
